@@ -1,6 +1,14 @@
-# Hello World with Nuxt.js
+# Installation
 
-https://nuxtjs.org/examples
+npm install
+
+# How to run
+
+npm run dev
+
+# Web
+
+https://localhost:3000
 
 # Pages
 
