@@ -1,17 +1,11 @@
 <template>
   <div>
-    <h1>Souvenir!</h1>
+    <h1>Tour!</h1>
     <img :src=post.thumbnailUrl />
     <span>{{post.title}}</span>
-    <button>Buy</button>
+    <button>Request</button>
   </div>
 </template>
-
-<style scoped>
-  span {
-    vertical-align: middle;
-  }
-</style>
 
 <script>
 import axios from 'axios'
@@ -25,7 +19,7 @@ export default {
       })
   },
   head: {
-    title: 'Souvenir page'
+    title: 'Tour page'
   }
 }
 </script>
