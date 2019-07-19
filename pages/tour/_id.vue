@@ -4,7 +4,14 @@
       <h1>Tour!</h1>
       <img :src=post.thumbnailUrl />
       <span>{{post.title}}</span>
-      <v-btn>Request</v-btn>
+      <pre>
+        북한의 아름다운 자연 경관을 소개 합니다.
+
+        저는 가이드 XXX 입니다.
+        저는 이곳에서 나고 자라서 YYY 지역에 대해 누구보다 잘 알고 있으며
+        관광객들이 흔히 잘 알지 못하는 구석구석 소개해 드리겠습니다.
+      </pre>
+      <v-btn @click="btnClick">가이드 요청</v-btn>
     </div>
     <h1>review</h1>
     <div class="review">
@@ -59,6 +66,11 @@ export default {
   },
   components: {
     FontAwesomeIcon
+  },
+  methods: {
+    btnClick: () => {
+      alert('요청이 정상적으로 되었습니다. 내 여행 정보에서 확인하세요. ')
+    }
   }
 }
 </script>
