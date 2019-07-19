@@ -3,7 +3,7 @@
     <h1>Souvenir!</h1>
     <img :src=post.thumbnailUrl />
     <span>{{post.title}}</span>
-    <button>Buy</button>
+    <v-btn>Buy</v-btn>
   </div>
 </template>
 
@@ -14,6 +14,12 @@
 </style>
 
 <script>
+import Vue from 'vue'
+import Vuetify from 'vuetify'
+
+Vue.use(Vuetify)
+import 'vuetify/dist/vuetify.min.css'
+
 import axios from 'axios'
 
 export default {

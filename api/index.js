@@ -4,12 +4,15 @@ const express = require('express')
 const app = express()
 
 // Require API routes
-const hello = require('./hello')
 const tour = require('./tour')
+const review = require('./review')
 
 // Import API Routes
-app.use(hello)
-app.use(tour)
+app.use([
+  tour,
+  review,
+])
+
 // Export the server middleware
 module.exports = {
   path: '/api',
