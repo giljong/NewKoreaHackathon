@@ -3,7 +3,7 @@
     <h1>Tourist Attraction!</h1>
     <ul>
       <li v-for="(post, index) in posts" :key="index">
-        <NuxtLink :to="{ name: 'posts-id', params: { id: post.id } }">
+        <NuxtLink :to="{ name: 'souvenir-id', params: { id: post.id } }">
           <img :src=post.thumbnailUrl />
         </NuxtLink>
       </li>
