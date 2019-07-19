@@ -1,7 +1,11 @@
 {
   "name": "com.unit.newkoreahack",
   "dependencies": {
-    "nuxt": "latest"
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "nuxt": "latest",
+    "request": "^2.88.0"
   },
   "scripts": {
     "dev": "nuxt",
