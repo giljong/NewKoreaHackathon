@@ -1,9 +1,6 @@
 <template>
   <div>
-    <p>Hi from {{ name }}</p>
-    <NLink to="/">
-      Home page
-    </NLink>
+    <h1>About!</h1>
   </div>
 </template>
 

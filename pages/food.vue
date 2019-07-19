@@ -1,10 +1,13 @@
 <template>
+  <div>
+    <h1>Food!</h1>
+  </div>
 </template>
 
 <script>
 export default {
   head: {
-    title: 'Home page'
+    title: 'Food page'
   }
 }
 </script>
