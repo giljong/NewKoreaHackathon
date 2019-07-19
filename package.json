@@ -1,0 +1,25 @@
+{
+  "name": "com.unit.newkoreahack",
+  "dependencies": {
+    "nuxt": "latest"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "description": "https://nuxtjs.org/examples",
+  "version": "1.0.0",
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giljong/NewKoreaHackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giljong/NewKoreaHackathon/issues"
+  },
+  "homepage": "https://github.com/giljong/NewKoreaHackathon#readme"
+}
