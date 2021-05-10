@@ -4,7 +4,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "axios": "^0.19.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "nuxt": "latest",
     "vuetify": "^1.5.16"
